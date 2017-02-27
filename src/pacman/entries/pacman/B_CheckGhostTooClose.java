@@ -5,7 +5,7 @@ import pacman.game.Constants;
 /**
  * Created by Andy on 2017-02-23.
  */
-public class B_CheckGhostTooClose extends Leaf {
+/*public class B_CheckGhostTooClose extends Leaf {
 
     @Override
     protected Output ProcessLeaf(DataContext data) {
@@ -21,3 +21,4 @@ public class B_CheckGhostTooClose extends Leaf {
         return  Output.FAILURE;
     }
 }
+*/

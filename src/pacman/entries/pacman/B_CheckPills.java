@@ -3,7 +3,7 @@ package pacman.entries.pacman;
 /**
  * Created by Andy on 2017-02-23.
  */
-public class B_CheckPills extends Leaf {
+/*public class B_CheckPills extends Leaf {
 
     @Override
     protected Output ProcessLeaf(DataContext data) {
@@ -21,4 +21,4 @@ public class B_CheckPills extends Leaf {
 
         return Output.FAILURE;
     }
-}
+}*/

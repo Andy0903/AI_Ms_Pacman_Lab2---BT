@@ -15,7 +15,7 @@ public class MyPacMan extends Controller<MOVE>
 
 	public MyPacMan()
 	{
-		rootNode = new Selector(
+		/*rootNode = new Selector(
 						new Sequence(
 							new B_CheckGhostTooClose(),
 							new Selector(
@@ -25,7 +25,13 @@ public class MyPacMan extends Controller<MOVE>
 								new B_RunAway())),
 						new Sequence(
 							new B_CheckPills(),
-							new B_WalkToPills()));
+							new B_WalkToPills()));*/
+
+		rootNode = new Selector(
+						new B_HuntGhost(),
+						new Sequence(
+								new B_RunAway(),
+								new B_WalkToPills()));
 	}
 
 	public MOVE getMove(Game game, long timeDue) 
